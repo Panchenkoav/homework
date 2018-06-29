@@ -1,0 +1,47 @@
+﻿using System;
+
+
+namespace Task
+
+{
+    class Program
+    {
+        public struct Dog
+        {
+            public string Name;
+            public int Age;
+            public string Mark;
+            public void Initiation()
+            {
+                string n = Console.ReadLine();
+                int a = Convert.ToInt32(Console.ReadLine());
+                string m = Console.ReadLine();
+                Name = n;
+                Age = a;
+                Mark = m;
+            }
+
+            public void Output()
+            {
+                Console.WriteLine("name is {0}, age is {1}, mark is {2}", Name, Age, Mark);
+            }
+        };
+
+        static void Main(string[] args)
+        {
+
+            Dog Dog1;
+            Dog1.Name = "Bite";
+            Dog1.Age = 2;
+            Dog1.Mark = "white";
+
+            Dog Dog2 = new Dog();
+            Dog2.Initiation();
+            Dog2.Output();
+
+
+
+        }
+    }
+
+}

@@ -1,0 +1,9 @@
+﻿int a, b;
+            Console.WriteLine("Enter 1st number");
+            bool rez = Int32.TryParse(Console.ReadLine(), out a);
+
+            Console.WriteLine("Enter 2nd number");
+            bool rez1 = Int32.TryParse(Console.ReadLine(), out b);
+
+            string answer = (a >= 0 && b >= 0) ? "The numbers are both positive" : "Some number isn't positive";
+            Console.WriteLine(answer);

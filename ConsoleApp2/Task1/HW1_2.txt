@@ -1,0 +1,7 @@
+﻿string name;
+int age;
+Console.WriteLine("What is your name?");
+name = Console.ReadLine();
+Console.WriteLine("How old are you, {0}?", name);
+bool isTrue = Int32.TryParse(Console.ReadLine(), out age);
+Console.WriteLine("You are {0} years old, {1}",age, name);

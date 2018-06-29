@@ -1,0 +1,9 @@
+﻿			float number1, number2, number3;
+            Console.WriteLine("Enter 3 (float) numbers");
+            bool numberReadRes1 = float.TryParse(Console.ReadLine(), out number1);
+            bool numberReadRes2 = float.TryParse(Console.ReadLine(), out number2);
+            bool numberReadRes3 = float.TryParse(Console.ReadLine(), out number3);
+            bool numberReadRes = (numberReadRes1 && numberReadRes2 && numberReadRes3) ? true : false;
+            bool result = ((number1 >= -5 && number1 <= 5) && (number2 >= -5 && number2 <= 5) && (number3 >= -5 && number3 <= 5));
+            string message = (numberReadRes) ? (result) ? "All numbers are belong to the range [-5,5]" : "Not all numbers are belong to the range [-5,5]" : "You enter invalid number";
+            Console.WriteLine(message);

@@ -1,0 +1,6 @@
+﻿int a;
+            Console.WriteLine("Enter a");
+            bool isTrue = Int32.TryParse(Console.ReadLine(), out a);
+            int area = a * a;
+            int perimeter = 4 * a;
+            Console.WriteLine("the perimeter of square is {0}, the area - {1}", perimeter, area);

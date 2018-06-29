@@ -1,0 +1,8 @@
+﻿public enum hTTPErrors { Bad_Request, Unauthorized, Payment_Required,Forbidden, Not_Found, Method_Not_Allowed, Not_Acceptable, Proxy_Authentication_Required, Request_Timeout};
+
+        private static void Main()
+        {
+            int er = Convert.ToInt32(Console.ReadLine());
+            er -= 400;
+            hTTPErrors Er00 = (hTTPErrors)er;
+            Console.WriteLine("Error #{0} is {1}", er+400, Er00);

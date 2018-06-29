@@ -1,0 +1,5 @@
+﻿int r;
+const double pi = 3.14 
+Console.WriteLine("Enter a radius");
+bool isTrue = Int32.TryParse(Console.ReadLine(), out r);
+Console.WriteLine("The lenght is {0}, area - {1}, volume -{2}", 2*pi*r, pi*r*r, 4/3*pi*r*r*r );

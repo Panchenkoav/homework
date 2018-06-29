@@ -1,0 +1,7 @@
+﻿		int day, month;
+            Console.WriteLine("Enter a day");
+            bool dayReadRes = Int32.TryParse(Console.ReadLine(), out day);
+            Console.WriteLine("Enter a month");
+            bool monthReadRes = Int32.TryParse(Console.ReadLine(), out month);
+            string checkRez = ((day <= 31) && (month <= 12)) ? "The date is valid" : "The date is invalid";
+            Console.WriteLine(checkRez);

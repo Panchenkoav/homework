@@ -1,0 +1,3 @@
+﻿Console.WriteLine("How are you?");
+            string answer = Console.ReadLine();
+            Console.WriteLine("You are {0}", answer);

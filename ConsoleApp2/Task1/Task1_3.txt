@@ -1,0 +1,8 @@
+﻿Console.WriteLine("Enter 3 characters");
+            Console.WriteLine("Enter first character");
+            char a = Convert.ToChar(Console.ReadLine());
+            Console.WriteLine("Enter second character");
+            char b = Convert.ToChar(Console.ReadLine());
+            Console.WriteLine("Enter third character");
+            char c = Convert.ToChar(Console.ReadLine());
+            Console.WriteLine("You enter {0}, {1}, {2}", a, b, c);
