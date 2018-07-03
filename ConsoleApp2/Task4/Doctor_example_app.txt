@@ -1,0 +1,45 @@
+﻿using System;
+
+
+namespace Task
+
+{
+    class Program
+    {
+        
+        static void Main(string[] args)
+        {
+
+            Doctor a = new Doctor();
+            a.Name = "Doctor1";
+            
+            Doctor b = new Doctor();
+            b.Name = "Licar";
+            Doctor c = new Doctor("House", 324.343, 2);
+            Doctor d = new Doctor("Aibolit");
+
+            /* Console.WriteLine(Doctor.Month);
+            // Console.WriteLine(a.MyNumber);
+
+            // Console.WriteLine(b.MyNumber);
+            Console.WriteLine(c.Name);
+            Console.WriteLine(d.Name);
+            a.Name = "Licar";
+            Console.WriteLine(a.Name);
+            Console.WriteLine(a.Salary);
+            Console.WriteLine(c.ExpYear);
+
+            Console.WriteLine(c.SalaryChange(60));
+
+            if (a == b) Console.WriteLine("the same doc");
+            else Console.WriteLine("Not the same");*/
+
+            Doctor h = new Doctor("Watson", 103, 3);
+            string doc2 = "i";
+            Doctor k = (Doctor)doc2;
+            string kkk = h;
+            k.Output();
+        }
+    }
+
+}

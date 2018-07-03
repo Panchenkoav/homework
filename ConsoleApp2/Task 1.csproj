@@ -54,6 +54,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Task4\Class_Doctor%28Lecture_example%29.cs" />
+    <Compile Include="Task4\Task4_class_Car.cs" />
     <Compile Include="Tasks.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -78,6 +80,9 @@
     <Content Include="Task3\HW3_1.txt" />
     <Content Include="Task2\Task2_1.2.txt" />
     <Content Include="Task2\Task2_1.txt" />
+    <Content Include="Task4\123123.png" />
+    <Content Include="Task4\Task 4.txt" />
+    <Content Include="Task4\Doctor_example_app.txt" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

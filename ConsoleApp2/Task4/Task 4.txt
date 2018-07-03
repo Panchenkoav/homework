@@ -1,0 +1,34 @@
+﻿using System;
+
+
+namespace Task
+
+{
+    class Program
+    {
+       
+
+        static void Main(string[] args)
+        {
+
+            Car volvo = new Car();
+            Car bmw = new Car();
+            Car ms = new Car();
+            volvo.Input();
+            bmw.Input();
+            ms.Input();
+
+            volvo.Print();
+            bmw.Print();
+            ms.Print();
+
+            Console.WriteLine(volvo.ChangePrice(-10));
+            Console.WriteLine(bmw.ChangePrice(-10));
+            Console.WriteLine(ms.ChangePrice(-10));
+
+
+
+        }
+    }
+
+}
